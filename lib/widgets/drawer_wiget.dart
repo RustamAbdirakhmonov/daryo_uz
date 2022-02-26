@@ -151,11 +151,199 @@ class _DrawerWidgetState extends State<DrawerWidget> {
             ),
           ),
         ),
-        Container(
-          width: double.infinity,
-          height: 40,
-          color: Colors.amber.withOpacity(0.4),
-        )
+        InkWell(
+          onTap: (){},
+          child: Container(
+            alignment: Alignment.centerLeft,
+            width: double.infinity,
+            height: 40,
+            color: Colors.amber.withOpacity(0.4),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Qo\'llanma ekranini ko\'rsatish':'Қўлланма екранини кўрсатиш',style: TextStyle(fontWeight: FontWeight.w700),),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'So\'ngi yangiliklar':'Сўнги йангиликлар',style: TextStyle(fontWeight: FontWeight.w700,color: Colors.blue)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Mahalliy':'Махаллий',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Dunyo':'Дунё',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Texnologiyalar':'Технологиялар',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        Divider(),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 60,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Tanlangan habarlar':'Танланган хабарлар',style: TextStyle(fontWeight: FontWeight.w700,color: Colors.green)),
+          ),
+        ),
+        Divider(),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Madaniyat':'Маданият',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Avto':'Авто',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Sport':'Спорт',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Foto':'Фото',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'LifeStyle':'Лайфстайле',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Kommunistlar':'Коммунистлар',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Afisha':'Афиша',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Valyutalar kursi':'Валюталар курси',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Ob-Havo':'Об-хаво',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Foydalanish shartlari':'ойдаланиш шартлари',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'<Daryo haqida>':'<Дарё> хакида',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+        InkWell(
+          onTap: (){},
+          child: Container(
+            width: double.infinity,
+            alignment: Alignment.centerLeft,
+            height: 40,
+            color: Colors.grey.withOpacity(0.3),
+            padding: EdgeInsets.only(left: 10),
+            child: Text(isLatin?'Sozlashlar':'Созлашлар',style: TextStyle(fontWeight: FontWeight.w700)),
+          ),
+        ),
+
+
       ],
     );
   }
