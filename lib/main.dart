@@ -1,5 +1,6 @@
 import 'package:daryo_uz/screens/main_screen.dart';
 import 'package:daryo_uz/screens/search_screen.dart';
+import 'package:daryo_uz/screens/tezes_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       home:MainScreen() ,
       routes: {
         SearchScreen.routeArgs:(context)=>SearchScreen(),
+        TezesScreen.routeArgs:(context)=>TezesScreen(),
       },
     );
   }

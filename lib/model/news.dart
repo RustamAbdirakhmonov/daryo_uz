@@ -1,13 +1,17 @@
 class News {
   String typeNews;
   String imageUrl;
-  String createdAt;
+  DateTime createdAt=DateTime.now();
   String visited;
-
+  String description;
+  String tezes;
   News(
       {required this.typeNews,
       required this.imageUrl,
       required this.createdAt,
-      required this.visited});
+      required this.visited,
+      required this.description,
+      required this.tezes,
+      });
 
 }

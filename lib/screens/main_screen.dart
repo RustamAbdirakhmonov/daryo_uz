@@ -1,3 +1,4 @@
+import 'package:daryo_uz/screens/news_screen.dart';
 import 'package:daryo_uz/screens/search_screen.dart';
 import 'package:daryo_uz/widgets/drawer_wiget.dart';
 import 'package:flutter/material.dart';
@@ -45,11 +46,17 @@ class MainScreen extends StatelessWidget {
                 }, icon: Icon(Icons.search))
               ],
         ),
-
-        body: Container(),
         drawer: Drawer(
           child: DrawerWidget(),
         ),
+        body: TabBarView(
+          children: [
+            NewsScreen(type: 1,),
+            NewsScreen(type: 2,),
+            NewsScreen(type: 3,),
+          ],
+        ),
+
 
       ),
     );
